@@ -4,8 +4,11 @@
 i si està en estoc o no. Imprimeix la informació de forma clara. */
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var producte = "Patatas";
+        var preu = 2;
+        bool estoc = true;
+        Console.WriteLine($"{producte}, {preu}€, {estoc}");
     }
 }
