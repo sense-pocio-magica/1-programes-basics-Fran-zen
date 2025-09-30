@@ -1,0 +1,5 @@
+C:\Users\isard\Documents\1-programes-basics-Fran-zen\exercicis\exercici2\obj\Debug\net9.0\exercici2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isard\Documents\1-programes-basics-Fran-zen\exercicis\exercici2\obj\Debug\net9.0\exercici2.AssemblyInfoInputs.cache
+C:\Users\isard\Documents\1-programes-basics-Fran-zen\exercicis\exercici2\obj\Debug\net9.0\exercici2.AssemblyInfo.cs
+C:\Users\isard\Documents\1-programes-basics-Fran-zen\exercicis\exercici2\obj\Debug\net9.0\exercici2.csproj.CoreCompileInputs.cache
+C:\Users\isard\Documents\1-programes-basics-Fran-zen\exercicis\exercici2\obj\Debug\net9.0\exercici2.sourcelink.json
