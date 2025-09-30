@@ -7,6 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var costat = 4;
+        Console.WriteLine($"El permietre es : {costat * 4}");
     }
 }
