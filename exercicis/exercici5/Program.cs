@@ -11,7 +11,7 @@ class Program
         Console.WriteLine("Posa Nom");
         var nom = Console.ReadLine();
         Console.WriteLine("Quant vas neixre");
-        var neixement = ConvertToInt16(Console.ReadLine());
+        var neixement = Convert.ToInt16(Console.ReadLine());
         var data = 2025;
         Console.WriteLine($"Hola {nom}! Ja tens {data - neixement}");
     }

@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("Posa carre");
         var carrer = Console.ReadLine(); 
         Console.WriteLine("numero");
-        var numero = Console.ReadLine();
+        var numero = Convert.ToInt16(Console.ReadLine());
 
         Console.WriteLine("Codi postal");
         var codi_postal = Console.ReadLine();
@@ -18,6 +18,6 @@ class Program
         Console.WriteLine("Poblacio");
         var Poblacio = Console.ReadLine();
 
-        Console.WriteLine($"Adreça : {carrer}, {numero},{codi_postal},{Poblacio}");
+        Console.WriteLine($"Adreça: {carrer} Numero: {numero} Codi postal {codi_postal} Poblacio: {Poblacio}");
     }
 }

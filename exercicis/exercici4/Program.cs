@@ -11,7 +11,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Quant a costat?");
-        var euro = ConvertToInt16(Console.ReadLine());
+        var euro = Convert.ToInt16(Console.ReadLine());
         double pesetas = 166.386;
         Console.WriteLine($"{euro} = {euros * pesetas}");
     }
