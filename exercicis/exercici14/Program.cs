@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var paraula = Peres;
+        Console.WriteLine($"{paraules[0]}, {paraules [5]}, {paraules[3]}");
     }
 }

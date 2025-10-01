@@ -25,7 +25,7 @@ Entra el segon número: 5
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
         Console.WriteLine("Primer numero");
         var n1 = Convert.ToInt16(Console.ReadLine());
@@ -34,6 +34,6 @@ class Program
         Console.WriteLine($"{n1} + {n2} = {n1 + n2}");
         Console.WriteLine($"{n1} - {n2} = {n1 - n2}");
         Console.WriteLine($"{n1} * {n2} = {n1 * n2}");
-        Console.WriteLine($"{n1} / {n2} = {n1 / n2}");
+        Console.WriteLine($"{n1} / {n2} = {n1 / n2} en sobran {(n1 % n2) }");
     }
 }

@@ -16,6 +16,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Nota de pràctiques:");
+        var nota = Convert.ToFloat(Console.ReadLine());
+        Console.WriteLine("Nota de examen:");
+        var examen = Convert.ToFloat(Console.ReadLine());
+        var mitjana = nota + examen / 2;
+        var ponderat = Convert.ToInt16(mitjana);
+        Console.WriteLine($"La nota fina és {mitjana} o sigui un {ponderat} ");
     }
 }

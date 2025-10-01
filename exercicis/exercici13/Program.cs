@@ -17,6 +17,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Entra la data sense formata");
+        var numeros = Console.ReadLine();
+        var dia = numeros.Substring(0, 2);
+        var mes = numeros.Substring(2, 2);
+        var any = numeros.Substring(4, 4);
+        Console.WriteLine($"La data és {dia}/{mes}/{any}");
     }
 }
