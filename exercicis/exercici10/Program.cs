@@ -8,6 +8,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Posa Nom");
+        var nom = Console.ReadLine();
+        Console.WriteLine("Posa any neixement");
+        var any = Console.ReadLine();
+        Console.WriteLine($"Contrasenya gerenrada: {nom + any}");
     }
 }

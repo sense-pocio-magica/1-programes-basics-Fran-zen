@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var n1 = 10;
+        var n2 = 7;
+        var n3 = 5;
+        var mitjana = (n1 + n2 + n3) / 3;
+        Console.WriteLine($"La mitjana es : {mitjana}");
     }
 }

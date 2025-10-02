@@ -15,6 +15,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Numero lleig:");
+        var numero_dec = Convert.ToDecimal(Console.ReadLine());
+        // Fer index i substring
     }
 }

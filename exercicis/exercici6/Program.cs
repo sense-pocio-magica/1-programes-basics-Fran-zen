@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Quant fa el costat");
+        var costat = Convert.ToInt16(Console.ReadLine());
+        Console.WriteLine($"El perimetre es : {costat * 4}");
     }
 }

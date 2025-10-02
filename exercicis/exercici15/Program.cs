@@ -4,8 +4,12 @@
 // assegurant-te que la primera lletra de cada paraula estigui en majúscula
 class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var nom = "pere";
+        var cognom = "pi";
+        var NomM = char.ToUpper(nom[0]) + nom.Substring(1);
+        var CognomM = char.ToUpper(cognom[0]) + cognom.Substring(1);
+        Console.WriteLine($"{NomM} {CognomM}"); 
     }
 }

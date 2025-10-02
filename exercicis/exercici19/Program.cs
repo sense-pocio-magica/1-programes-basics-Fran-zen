@@ -6,6 +6,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Escriu una paraula");
+        var text = Console.ReadLine();
+        Console.WriteLine($"Paraula: {text} te {text?.Length} caracters");
     }
 }
