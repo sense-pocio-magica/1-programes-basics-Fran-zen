@@ -10,13 +10,16 @@ El número invertit és: 743
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Numero per invertir");
-        var numero = Convert.ToInt16(Console.ReadLine());
-        // Fer invertiment 
+        Console.WriteLine("Entra el número a invertir:");
+        var numero = Convert.ToInt32(Console.ReadLine());
 
-        // Print del resultat
-        //Console.WriteLine($"El número invertit és : {numero_inv}");
+        int invertit = int.Parse(new string(numero.ToString()
+            .Reverse()
+            .ToArray()));
+
+        // Mostrem el resultat
+        Console.WriteLine($"El número invertit és: {invertit}");
     }
 }
