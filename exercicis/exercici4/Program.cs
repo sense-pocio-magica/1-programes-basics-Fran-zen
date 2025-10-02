@@ -13,6 +13,6 @@ class Program
         Console.WriteLine("Quant a costat?");
         var euro = Convert.ToInt16(Console.ReadLine());
         double pesetas = 166.386;
-        Console.WriteLine($"{euro} = {euros * pesetas}");
+        Console.WriteLine($"{euro} euros = {euro * pesetas} pesetas");
     }
 }

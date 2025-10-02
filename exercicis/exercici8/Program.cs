@@ -8,8 +8,9 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Quants de minuts");
-        var minuts = ConvertToDouble(Console.ReadLine());
+        var minuts = Convert.ToInt16(Console.ReadLine());
         var hores = minuts / 60;
-        Console.WriteLine($"Hores = {hores}");
+        var restant = minuts % 60;
+        Console.WriteLine($"{hores} Hores, {restant} minuts ");
     }
 }

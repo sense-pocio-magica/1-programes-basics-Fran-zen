@@ -12,6 +12,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Numero per invertir");
+        var numero = Convert.ToInt16(Console.ReadLine());
+        // Fer invertiment 
+
+        // Print del resultat
+        //Console.WriteLine($"El número invertit és : {numero_inv}");
     }
 }

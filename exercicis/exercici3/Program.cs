@@ -8,7 +8,15 @@ class Program
     {
         var producte = "Patatas";
         var preu = 2;
-        bool estoc = true;
-        Console.WriteLine($"{producte}, {preu}€, {estoc}");
+        bool estoc;
+        estoc = true;
+        if (estoc == true)
+        {
+            Console.WriteLine($"{producte}, {preu}€");
+        }
+        else
+        {
+            Console.WriteLine($"No hi ha estoc de {producte}");
+        }
     }
 }

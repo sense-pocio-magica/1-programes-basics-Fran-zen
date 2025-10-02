@@ -6,6 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var text = "Loreipsulumdefhafhaoidhaodwrwqbrbhrkjakjfbsakfbk";
+        Console.WriteLine($"Paraula: {text} , nombra de caracters {text.Length}");
     }
 }

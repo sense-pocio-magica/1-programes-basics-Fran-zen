@@ -18,6 +18,6 @@ class Program
         Console.WriteLine("Poblacio");
         var Poblacio = Console.ReadLine();
 
-        Console.WriteLine($"Adreça: {carrer} Numero: {numero} Codi postal {codi_postal} Poblacio: {Poblacio}");
+        Console.WriteLine($"Adreça amb numero: {carrer}, {numero} Codi postal {codi_postal} Poblacio: {Poblacio}");
     }
 }
