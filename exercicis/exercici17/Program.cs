@@ -16,7 +16,10 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Numero lleig:");
-        var numero_dec = Convert.ToDecimal(Console.ReadLine());
-        // Fer index i substring
+        var numero_dec = Console.ReadLine();
+        var coma = numero_dec.IndexOf(',');
+        var dec = numero_dec.Substring(coma+1);
+        Console.WriteLine($"Numero meravellos 0,{dec}");
+        
     }
 }
