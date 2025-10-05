@@ -15,6 +15,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Numero lleig:");
+        var numero_dec = Console.ReadLine();
+        var coma = numero_dec.IndexOf(',');
+        var dec = numero_dec.Substring(coma+1);
+        Console.WriteLine($"Numero meravellos 0,{dec}");
+        
     }
 }

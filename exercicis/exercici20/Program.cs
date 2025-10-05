@@ -10,8 +10,16 @@ El número invertit és: 743
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Entra el número a invertir:");
+        var numero = Convert.ToInt32(Console.ReadLine());
+
+        int invertit = int.Parse(new string(numero.ToString()
+            .Reverse()
+            .ToArray()));
+
+        // Mostrem el resultat
+        Console.WriteLine($"El número invertit és: {invertit}");
     }
 }
